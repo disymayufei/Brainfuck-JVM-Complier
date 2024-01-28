@@ -3,11 +3,11 @@ This is a compiler that using Gradle compile-time tasks to compile BrainFuck cod
 
 # Usage
 ### 1.Preparation
-Clone code repository to your local environment, then
+Clone this repository to your local environment, then
 modify the gradle.properties file by changing the "brainfuckFileName" entry to the name of your BrainFuck code file.
 
 ### 2. Compile
-Put your BrainFuck code file in the resources dictionary, The following is an example BrainFuck code that will print "Hello World!" in standard output:
+Put your BrainFuck code file in the resources dictionary, The following is an example BrainFuck code that will print "Hello World!" in console:
 ```
 ++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>++.>+.+++++++..+++.<<++.>+++++++++++++++.>.+++.------.--------.<<+.<.
 ```
